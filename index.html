@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tae Toe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=AR+One+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav class="nav">
+      <ul style="width: 100%; margin-left: 0px">
+        <li style="padding-left: 0px">
+          <img src="logo.png" class="img" alt=""  />
+        </li>
+        <li class="my" style="margin-left: 15px">MyTicTaeToe.com</li>
+        <li class="my">Home</li>
+      </ul>
+    </nav>
+    <div   class="Welcome" style="margin-top: 25px; text-align: center;">
+      Welcome to my Tic Tae Toe !
+    </div>
+    <div class="gamec">
+      <div class="container">
+      <div class="" id="lines"></div>
+        <div class="box bl bt"><span class="bxtxt"></span></div>
+        <div class="box bt"><span class="bxtxt"></span></div>
+        <div class="box bt br"><span class="bxtxt"></span></div>
+        <div class="box bl"><span class="bxtxt"></span></div>
+        <div class="box"><span class="bxtxt"></span></div>
+        <div class="box br"><span class="bxtxt"></span></div>
+        <div class="box bl bb"><span class="bxtxt"></span></div>
+        <div class="box bb"><span class="bxtxt"></span></div>
+        <div class="box br bb"><span class="bxtxt"></span></div>
+      </div>
+      
+      <div class="info">
+        <div class="mid">
+            <span class="turn" >
+              Turn for X
+            </span> <br>
+            <button class="btn" id="reset"  style="margin-top: 15px;">Reset</button>  
+        </div>
+        <div class="imgbox">
+          <img src="win.gif" alt="">
+      </div>
+      </div>
+
+      <!-- <div style="display: flex; flex-direction: row-reverse; width: 10%;">
+        <span><i class="fa-custom fa-solid fa-volume-high fa-2xl" id="fa" style="color: #0a0a0a;margin-left: 25px; float: right;"></i></span>
+      </div> -->
+    </div>
+    <script src="https://kit.fontawesome.com/786a53d443.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
